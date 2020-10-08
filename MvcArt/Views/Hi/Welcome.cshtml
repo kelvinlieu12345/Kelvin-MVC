@@ -1,0 +1,29 @@
+﻿
+@{
+    ViewData["Title"] = "Welcome";
+}
+
+<ul>
+    @for (int i = 0; i < (int)ViewData["HowMany"]; i++)
+    {
+        <li>
+            @ViewData["Msg"]
+        </li><input id="Radio1" type="radio" />
+             <select id="Select1">
+                 <option>Testing</option>
+                 <option>Testing</option>
+                 <option>Testing</option>
+                 <option>Testing</option>
+                 <option>Testing</option>
+                 <option>Testing</option>
+                 <option>Testing</option>
+
+
+
+             </select>
+
+             <hr />
+             <input id="Hidden1" type="hidden" />
+    <table style="width:100%;"><tr><td>&nbsp;1</td><td>&nbsp;2</td><td>&nbsp;3</td></tr><tr><td>&nbsp;4</td><td>&nbsp;5</td><td>&nbsp;6</td></tr><tr><td>&nbsp;7</td><td>&nbsp;8</td><td>&nbsp;9</td></tr></table>
+    }
+</ul>
